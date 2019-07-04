@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - canvas_react_i18n > lodash:
+        patched: '2019-07-04T01:37:00.300Z'
+    - grunt-contrib-jasmine > grunt-lib-phantomjs > phantomjs > request > form-data > async > lodash:
+        patched: '2019-07-04T01:37:00.300Z'
