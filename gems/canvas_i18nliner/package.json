@@ -10,7 +10,7 @@
     "i18nliner": "0.0.16",
     "i18nliner-handlebars": "0.1.0",
     "minimist": "^1.1.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^1.0.0"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5"
